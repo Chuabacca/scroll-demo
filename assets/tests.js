@@ -232,4 +232,4 @@ require('scroll-demo/tests/test-helper');
 EmberENV.TESTS_FILE_LOADED = true;
 
 /* jshint ignore:end */
-//# sourceMappingURL=tests.map
+//# sourceMappingURL=./assets/tests.map

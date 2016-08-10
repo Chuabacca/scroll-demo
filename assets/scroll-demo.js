@@ -317,7 +317,7 @@ define("scroll-demo/templates/home-page", ["exports"], function (exports) {
         buildFragment: function buildFragment(dom) {
           var el0 = dom.createDocumentFragment();
           var el1 = dom.createElement("img");
-          dom.setAttribute(el1, "src", "../images/yellow_submarine.gif");
+          dom.setAttribute(el1, "src", "./images/yellow_submarine.gif");
           dom.setAttribute(el1, "id", "submarine");
           dom.appendChild(el0, el1);
           return el0;
@@ -479,7 +479,7 @@ define("scroll-demo/templates/next-page", ["exports"], function (exports) {
         buildFragment: function buildFragment(dom) {
           var el0 = dom.createDocumentFragment();
           var el1 = dom.createElement("img");
-          dom.setAttribute(el1, "src", "../images/yellow_submarine.gif");
+          dom.setAttribute(el1, "src", "./images/yellow_submarine.gif");
           dom.setAttribute(el1, "class", "flip");
           dom.setAttribute(el1, "id", "submarine");
           dom.appendChild(el0, el1);
@@ -655,8 +655,8 @@ catch(err) {
 /* jshint ignore:start */
 
 if (!runningTests) {
-  require("scroll-demo/app")["default"].create({"name":"scroll-demo","version":"0.0.0+6df8a88a"});
+  require("scroll-demo/app")["default"].create({"name":"scroll-demo","version":"0.0.0+89b4f018"});
 }
 
 /* jshint ignore:end */
-//# sourceMappingURL=scroll-demo.map
+//# sourceMappingURL=./assets/scroll-demo.map
