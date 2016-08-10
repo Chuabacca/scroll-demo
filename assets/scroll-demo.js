@@ -655,7 +655,7 @@ catch(err) {
 /* jshint ignore:start */
 
 if (!runningTests) {
-  require("scroll-demo/app")["default"].create({"name":"scroll-demo","version":"0.0.0+89b4f018"});
+  require("scroll-demo/app")["default"].create({"name":"scroll-demo","version":"0.0.0+9998a811"});
 }
 
 /* jshint ignore:end */
