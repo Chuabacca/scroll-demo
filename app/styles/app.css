@@ -41,7 +41,6 @@ div {
 
 .depth {
   font-size: 26px;
-  margin: 300px 0 0 10%;
 }
 
 .flip {
@@ -51,4 +50,12 @@ div {
   transform: scaleX(-1);
   filter: FlipH;
   -ms-filter: "FlipH";
+  left:33%;
 }
+
+.left {
+    margin: 300px 0 0 10%;
+}
+ .right {
+     margin: 300px 0 0 75%;
+ }
