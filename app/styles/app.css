@@ -1,5 +1,11 @@
 @import url(https://fonts.googleapis.com/css?family=VT323);
 
-.background {
-   background: linear-gradient(to top, #00DCFF, #000055);
+#background {
+   background: linear-gradient(to top, #000055, #00DCFF);
+}
+
+#submarine {
+  position:fixed;
+  top:33%;
+  right:33%;
 }
