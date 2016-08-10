@@ -5,6 +5,7 @@ module.exports = function(environment) {
     modulePrefix: 'scroll-demo',
     environment: environment,
     rootURL: '/',
+    baseURL: 'scroll-demo',
     locationType: 'router-scroll',
     EmberENV: {
       FEATURES: {

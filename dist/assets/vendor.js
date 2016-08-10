@@ -84880,4 +84880,4 @@ define('ember-router-scroll/services/router-scroll', ['exports', 'ember'], funct
 
 
 /* jshint ignore:end */
-//# sourceMappingURL=vendor.map
+//# sourceMappingURL=./assets/vendor.map
